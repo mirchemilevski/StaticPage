@@ -1,0 +1,98 @@
+/* Home */
+
+.firstimg {
+  background-image: url("./img/image1.jpg");
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secondimg {
+  background-image: url("./img/image2.jpg");
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thirdimg {
+  background-image: url("./img/image3.jpg");
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+.carabso {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto !important;
+}
+
+.faSize {
+  font-size: 30px;
+}
+
+.bg-home {
+  background-image: url("./img/lights.jpg");
+  height: 25vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-media {
+  background-image: url("./img/media.jpg");
+  height: 25vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mediaRgba {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 25vh;
+}
+
+.homeRgba {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 25vh;
+}
+
+/* Services */
+.col .card .card-body ul li i {
+  font-size: 30px;
+}
+
+.btn-link {
+  text-decoration: none !important;
+}
+
+/* Contact */
+.bg-contact {
+  background-image: url("./img/image1.jpg");
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-footer {
+  background-color: black;
+}
+
+.one {
+  height: 60vh;
+  margin-top: -60px;
+}
+
+.btnmodel:focus {
+  outline: none;
+}
+
+@media (max-width: 425px) {
+  .modal-body iframe {
+    width: 350px;
+    height: 445px;
+  }
+}
